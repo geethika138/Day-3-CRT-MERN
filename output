@@ -1,0 +1,436 @@
+at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> node app.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> cd C:\659\nodeapi\
+PS C:\659\nodeapi> node app.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\nodeapi\app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659\nodeapi> cd C:\659\nodeapi\
+PS C:\659\nodeapi> node app.js       
+Server running at http://localhost:3000
+PS C:\659\nodeapi> npm install express body-parser
+
+up to date, audited 67 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Index.html:String) [], CommandNotFoundException
+    + CategoryInfo          : ObjectNotFound: (Index.html:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+Suggestion [3,General]: The command Index.html was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type: ".\Index.html". See "get-help about_Command_Precedence" for more details.
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:4000
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+{ name: 'John Doe', age: 30 }
+{ name: 'John Doe', age: 30 }
+{ name: 'John Doe', age: 30 }
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+PS C:\659\nodeapi> npm install cors
+
+added 2 packages, and audited 69 packages in 1s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\659\nodeapi> node app1.js    
+Server running at http://localhost:3000
+PS C:\659\nodeapi> 
+ *  History restored 
+PS C:\659> ^C
+PS C:\659> node app1.js
+node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\659\app1.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+PS C:\659> cd nodeapi         
+PS C:\659\nodeapi> node app1.js
+Server running at http://localhost:3000
+PS C:\659\nodeapi> 
+ *  History restored 
+
+PS C:\659> mkdir day3
+
+
+    Directory: C:\659
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-12-2024     14:09                day3
+
+
+PS C:\659> cd day3
+PS C:\659\day3> node osdemo.js
+x64
+Windows 11 Pro
+C:\Users\PPSLAB~1\AppData\Local\Temp
+PS C:\659\day3> node osdemo.js
+x64
+Windows 11 Pro
+C:\Users\PPSLAB~1\AppData\Local\Temp
+C:\659\day3
+C:\659\day3\osdemo.js
+PS C:\659\day3> node osdemo1.js
+C:\Users\PPS LAB
+Windows_NT
+2663448576
+win32
+0
+[
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 37375, nice: 0, sys: 153671, idle: 1588265, irq: 9906 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 18593, nice: 0, sys: 26140, idle: 1734328, irq: 375 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 49781, nice: 0, sys: 54203, idle: 1675078, irq: 265 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 22312, nice: 0, sys: 13062, idle: 1743656, irq: 0 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 37390, nice: 0, sys: 49421, idle: 1692234, irq: 203 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 20953, nice: 0, sys: 14250, idle: 1743843, irq: 125 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 34406, nice: 0, sys: 41734, idle: 1702906, irq: 171 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 45468, nice: 0, sys: 26890, idle: 1706671, irq: 156 }
+  }
+]
+PS C:\659\day3> node osdemo1.js
+C:\Users\PPS LAB
+Windows_NT
+2593374208
+win32
+0
+[
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 39140, nice: 0, sys: 163015, idle: 1676765, irq: 10515 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 19000, nice: 0, sys: 27421, idle: 1832250, irq: 390 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 51500, nice: 0, sys: 56531, idle: 1770640, irq: 281 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 22734, nice: 0, sys: 13312, idle: 1842625, irq: 0 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 38734, nice: 0, sys: 53937, idle: 1785984, irq: 218 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 21531, nice: 0, sys: 15046, idle: 1842078, irq: 125 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 35718, nice: 0, sys: 42921, idle: 1800015, irq: 171 }
+  },
+  {
+    model: 'Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz',
+    speed: 3696,
+    times: { user: 47046, nice: 0, sys: 28953, idle: 1802656, irq: 156 }
+  }
+]
+{
+  Ethernet: [
+    {
+      address: 'fd01::e65f:18a7:2836:8d8a',
+      netmask: 'ffff:ffff:ffff:ffff::',
+      family: 'IPv6',
+      mac: '74:86:e2:0d:56:88',
+      internal: false,
+      cidr: 'fd01::e65f:18a7:2836:8d8a/64',
+      scopeid: 0
+    },
+    {
+      address: 'fd01::54b4:590c:77e:345f',
+      netmask: 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff',
+      family: 'IPv6',
+      mac: '74:86:e2:0d:56:88',
+      internal: false,
+      cidr: 'fd01::54b4:590c:77e:345f/128',
+      scopeid: 0
+    },
+    {
+      address: 'fe80::444:eb3f:9e61:7971',
+      netmask: 'ffff:ffff:ffff:ffff::',
+      family: 'IPv6',
+      mac: '74:86:e2:0d:56:88',
+      internal: false,
+      cidr: 'fe80::444:eb3f:9e61:7971/64',
+      scopeid: 13
+    },
+    {
+      address: '192.168.23.41',
+      netmask: '255.255.0.0',
+      family: 'IPv4',
+      mac: '74:86:e2:0d:56:88',
+      internal: false,
+      cidr: '192.168.23.41/16'
+    }
+  ],
+  'Ethernet 2': [
+    {
+      address: 'fe80::3072:3c38:9cb1:50a7',
+      netmask: 'ffff:ffff:ffff:ffff::',
+      family: 'IPv6',
+      mac: '0a:00:27:00:00:11',
+      internal: false,
+      cidr: 'fe80::3072:3c38:9cb1:50a7/64',
+      scopeid: 17
+    },
+    {
+      address: '192.168.56.1',
+      netmask: '255.255.255.0',
+      family: 'IPv4',
+      mac: '0a:00:27:00:00:11',
+      internal: false,
+      cidr: '192.168.56.1/24'
+    }
+  ],
+  'Loopback Pseudo-Interface 1': [
+    {
+      address: '::1',
+      netmask: 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff',
+      family: 'IPv6',
+      mac: '00:00:00:00:00:00',
+      internal: true,
+      cidr: '::1/128',
+      scopeid: 0
+    },
+    {
+      address: '127.0.0.1',
+      netmask: '255.0.0.0',
+      family: 'IPv4',
+      mac: '00:00:00:00:00:00',
+      internal: true,
+      cidr: '127.0.0.1/8'
+    }
+  ],
+  'vEthernet (Default Switch)': [
+    {
+      address: 'fe80::abc4:c3f8:dd05:5c6c',
+      netmask: 'ffff:ffff:ffff:ffff::',
+      family: 'IPv6',
+      mac: '00:15:5d:85:27:66',
+      internal: false,
+      cidr: 'fe80::abc4:c3f8:dd05:5c6c/64',
+      scopeid: 31
+    },
+    {
+      address: '172.21.208.1',
+      netmask: '255.255.240.0',
+      family: 'IPv4',
+      mac: '00:15:5d:85:27:66',
+      internal: false,
+      cidr: '172.21.208.1/20'
+    }
+  ]
+}
+LE
+node:internal/errors:541
+      throw error;
+      ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "priority" argument must be of type number. Received undefined
+    at Object.setPriority (node:os:318:3)
+    at Object.<anonymous> (C:\659\day3\osdemo1.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v21.7.1
+PS C:\659\day3> node pathdemo.js
+C:\659\day3
+node:internal/errors:541
+      throw error;
+      ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.dirname (node:path:658:5)
+    at Object.<anonymous> (C:\659\day3\pathdemo.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v21.7.1
+PS C:\659\day3> node pathdemo.js
+C:\659\day3
+pathdemo.js
+.js
+;
+PS C:\659\day3> node pathdemo.js
+C:\659\day3
+pathdemo.js
+.js
+;
+node:internal/errors:541
+      throw error;
+      ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.parse (node:path:917:5)
+    at Object.<anonymous> (C:\659\day3\pathdemo.js:6:18)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v21.7.1
+PS C:\659\day3> node fsdemo.js  
+C:\659\day3\fsdemo.js:2
+fs.readline('abc.txt',(err,data)=>{
+   ^
+
+TypeError: fs.readline is not a function
+    at Object.<anonymous> (C:\659\day3\fsdemo.js:2:4)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v21.7.1
+PS C:\659\day3> node fsdemo.js
+node:internal/errors:541
+      throw error;
+      ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+    at maybeCallback (node:fs:182:3)
+    at Object.writeFile (node:fs:2272:14)
+    at Object.<anonymous> (C:\659\day3\fsdemo.js:6:4)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v21.7.1
+PS C:\659\day3> node fsdemo.js
+node:internal/errors:541
+      throw error;
+      ^
+
+    at maybeCallback (node:fs:182:3)
+    at Object.writeFile (node:fs:2272:14)
+    at Object.<anonymous> (C:\659\day3\fsdemo.js:6:4)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v21.7.1
+PS C:\659\day3> node fsdemo.js
+File written successfully
+PS C:\659\day3>
+                ^C            
+PS C:\659\day3> node fsdemo1.js
+Successsfully updated
+PS C:\659\day3> node httpdemo.js
+Server started
